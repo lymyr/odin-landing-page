@@ -1,0 +1,131 @@
+* {
+    font-family: Roboto;
+    margin:0px;
+    padding:0px;
+    font-size:18px;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    /* margin: 0px 60px; */
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    gap:16px;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    /* Bandaid solution when making view width smaller */
+    padding: 12px 256px;
+    min-width: 640px;
+}
+
+.header > p {
+    font-size:24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    gap:32px;
+    /* Bandaid solution when making view width smaller */
+    padding: 90px 256px;
+    min-width: 640px;
+}
+
+.content-right {
+    align-self: stretch;
+}
+
+.content-right > img {
+    object-fit: cover;
+    width:30vw;
+    height:100%;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
+
+.content-left > :nth-child(1) {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.content-left > :nth-child(2) {
+    color: #E5E7EB;
+    margin-top: 8px;
+}
+
+.content-left button {
+    padding: 16px 32px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    margin-top:24px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Bandaid solution when making view width smaller */
+    padding: 90px 256px;
+    min-width: 640px;
+}
+
+.info > h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:900px;
+}
+
+.info > p {
+    font-size:12px;
+    opacity: 50%;
+    margin-bottom: 56px;
+}
+
+.crews-container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:40px;
+}
+
+.crew {
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    text-align: center;
+}
+
+.crew > img,
+.crew > p {
+    width:300px;
+}
+
+.crew > p {
+    opacity: 70%;
+}
+
+.crew span {
+    font-weight: 900;
+}
