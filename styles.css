@@ -1,5 +1,5 @@
 * {
-    font-family: Roboto;
+    font-family: Roboto, 'Arial';
     margin:0px;
     padding:0px;
     font-size:18px;
@@ -74,7 +74,7 @@ ul {
 .content-left button {
     padding: 16px 32px;
     font-weight: bold;
-    color: white;
+    color: #E5E7EB;
     background-color: #3882F6;
     border: none;
     border-radius: 8px;
@@ -128,4 +128,77 @@ ul {
 
 .crew span {
     font-weight: 900;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+    /* Bandaid solution when making view width smaller */
+    padding: 90px 0px 90px 0px;
+    /* width: 100%; */
+    min-width:640px;
+}
+
+.quote {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* Bandaid solution when making view width smaller */
+    margin: 0px 256px;
+    min-width: 640px;
+}
+.quote-actual {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-size: 24px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:64px;
+    color:white;
+    padding:32px 100px;
+    border-radius: 8px;
+    /* Bandaid solution when making view width smaller */
+    margin: 90px 256px 90px 256px;
+    min-width: 640px;
+}
+
+.call-left h1 {
+    font-size: 24px;
+    /* margin-bottom:2px; */
+}
+
+.call-left p {
+    font-weight: 200;
+}
+
+.call-right button {
+    background-color: transparent;
+    border-color: white;
+    color:white;
+    padding: 4px 32px;
+    border-radius: 8px;
+    border-style: solid;
+    font-weight: 700;
+}
+
+.footer {
+    display:flex;
+    background-color: #1F2937;
+    justify-content: center;
+    color: #E5E7EB;
+    /* Bandaid solution when making view width smaller */
+    padding: 32px 256px;
+    min-width: 640px;
 }
