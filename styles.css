@@ -136,8 +136,7 @@ ul {
     justify-content: center;
     /* Bandaid solution when making view width smaller */
     padding: 90px 0px 90px 0px;
-    /* width: 100%; */
-    min-width:640px;
+    min-width:1152px;
 }
 
 .quote {
