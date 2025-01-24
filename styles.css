@@ -36,6 +36,8 @@ ul {
     font-size:24px;
     color: #F9FAF8;
     font-weight: bold;
+    cursor: default;
+    user-select: none;
 }
 
 .content {
@@ -56,6 +58,7 @@ ul {
 .content-right > img {
     object-fit: cover;
     width:30vw;
+    min-width: 256px;
     height:100%;
     flex-shrink: 0;
     border-radius: 12px;
@@ -80,6 +83,12 @@ ul {
     border: none;
     border-radius: 8px;
     margin-top:24px;
+}
+
+.content-left button:hover {
+    transition:250ms;
+    background-color: #5994f3;
+    cursor: pointer;
 }
 
 .info {
@@ -194,6 +203,11 @@ ul {
     font-weight: 700;
 }
 
+.call-right button:hover {
+    transition:250ms;
+    background-color: #5994f3;
+    cursor: pointer;
+}
 .footer {
     display:flex;
     background-color: #1F2937;
