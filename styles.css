@@ -74,7 +74,7 @@ ul {
 .content-left button {
     padding: 16px 32px;
     font-weight: bold;
-    color: #E5E7EB;
+    color: #ffffff;
     background-color: #3882F6;
     border: none;
     border-radius: 8px;
@@ -170,7 +170,7 @@ ul {
     border-radius: 8px;
     /* Bandaid solution when making view width smaller */
     margin: 90px 256px 90px 256px;
-    min-width: 640px;
+    min-width: 440px;
 }
 
 .call-left h1 {
